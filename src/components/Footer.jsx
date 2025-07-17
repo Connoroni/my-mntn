@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="col-span-10 col-start-2 row-start-5 grid grid-cols-6 grid-rows-4 gap-4 ml-8">
+    <footer className="col-span-10 col-start-2 row-start-6 grid grid-cols-6 grid-rows-4 gap-4 mt-[10rem] ml-8">
       <h2 className="row-span-2">MNTN</h2>
       <div className="row-span-4 col-start-4">
         <h3 className="text-yellow-200 text-lg font-semibold">

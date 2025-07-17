@@ -8,7 +8,8 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <header
-      className={`col-span-12 row-span-2 h-[150vh] bg-cover bg-center bg-[url("https://assets.iflscience.com/assets/articleNo/73209/aImg/74597/longest-ocean-range-meta.jpg")] grid grid-cols-6 grid-rows-7 gap-4`}
+      id="top"
+      className={`col-span-12 row-span-2 h-[120vh] bg-cover bg-center bg-[url("https://assets.iflscience.com/assets/articleNo/73209/aImg/74597/longest-ocean-range-meta.jpg")] grid grid-cols-6 grid-rows-7 gap-4 -z-50`}
     >
       <nav className="flex flex-row justify-between items-start mx-8 my-2 col-span-6">
         <h2>MNTN</h2>
@@ -28,10 +29,10 @@ export default function Hero() {
         <Bluesky />
       </aside>
       <aside className="flex flex-col justify-between items-end row-span-2 col-start-6 row-start-3 mr-8 border-r-2 border-r-white py-4 pr-4 h-3/4">
-        <Link href="#">Start</Link>
-        <Link href="#">01</Link>
-        <Link href="#">02</Link>
-        <Link href="#">03</Link>
+        <Link href="#top">Start</Link>
+        <Link href="#01">01</Link>
+        <Link href="#02">02</Link>
+        <Link href="#03">03</Link>
       </aside>
       <div className="col-span-2 col-start-3 row-start-3">
         <YellowText label="A Hiking Guide" />
@@ -39,7 +40,7 @@ export default function Hero() {
           Be Prepared For The Mountains And Beyond
         </h1>
         <Link
-          href="#"
+          href="#content"
           className="flex flex-row justify-start text-sm gap-2 mt-2"
         >
           scroll down <ArrowDown />
